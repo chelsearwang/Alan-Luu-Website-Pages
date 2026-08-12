@@ -11,11 +11,11 @@ const POST_IT_TINTS = ['#FEF9C3', '#FCE7F3', '#DBEAFE', '#DCFCE7', '#FFE4E6', '#
 export default function FunFacts({ isMusicMode, facts }: Props) {
   if (isMusicMode) {
     return (
-      <div className="flex flex-wrap gap-3 mt-8">
+      <div className="flex flex-wrap justify-center gap-3 mt-8">
         {facts.map((fact, i) => (
           <span
             key={i}
-            className="bubble-pill badge-bob rounded-full px-4 py-2 text-sm font-medium"
+            className="bubble-pill badge-bob rounded-full px-5 py-3 text-base font-medium"
             style={{
               background: 'linear-gradient(135deg, rgba(56,189,248,0.14), rgba(7,89,133,0.18))',
               border: '1px solid rgba(56,189,248,0.32)',
@@ -32,7 +32,7 @@ export default function FunFacts({ isMusicMode, facts }: Props) {
   }
 
   return (
-    <div className="flex flex-wrap gap-4 mt-8">
+    <div className="flex flex-wrap justify-center gap-4 mt-8">
       {facts.map((fact, i) => (
         <div
           key={i}

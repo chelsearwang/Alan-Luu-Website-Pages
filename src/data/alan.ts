@@ -24,13 +24,13 @@ export const profile = {
 // swap these out any time for whatever you'd rather feature.
 export const funFacts = {
   content: [
-    '🎮 Started out editing Valorant clips',
-    '⛏️ Also interested in music production',
-    '🎧 Discovered FL Studio in 2021',
-    '📅 Creating content for over a decade',
+    '🎮 First inspired to make content from gaming youtubers, then shifting to vlog content',
+    '🎵 Interested in music based project videos',
+    '🎧 I hope to expand my knowledge of using different art mediums (from 3D to 2D animation)',
+    '🎬 Fav media: Nurture by Porter Robinson, Terraria, and the anime Frieren',
   ],
   music: [
-    '🐟 meet Aegle the Angler Fish',
+    '🐟 Meet Aegle the Angler Fish',
     '🔧 Aegle\'s day job: underwater mechanic',
     '💿 Debut EP: Beyond These Borders',
     '🎵 6 tracks featured on this EP',

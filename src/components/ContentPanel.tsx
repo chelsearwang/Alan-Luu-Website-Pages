@@ -19,7 +19,7 @@ export default function ContentPanel({ isMusicMode, activeSection, isMobile }: P
     <div key={`${activeSection}-${isMusicMode}`} className="w-full flex flex-col gap-4 section-fade">
 
       {activeSection === 'about' && (
-        <div className={`flex flex-col gap-4 ${isMobile ? '' : 'max-w-2xl'}`}>
+        <div className={`flex flex-col gap-4 ${isMobile ? '' : 'max-w-3xl'}`}>
           {(isMusicMode ? profile.aboutMusic : profile.about).map((paragraph, i) => (
             <p
               key={i}
