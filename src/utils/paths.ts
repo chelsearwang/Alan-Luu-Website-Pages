@@ -1,5 +1,5 @@
 export function appendBasePath(path: string): string {
-  const basePath = "/Alan-Luu-Website-Pages" ;
+  const basePath = "";
   if (path.startsWith('/')) {
     return `${basePath}${path}`;
   }
